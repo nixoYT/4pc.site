@@ -1,0 +1,894 @@
+body {
+    background-color: #444;
+        font-family: 'Tajawal', sans-serif;font-size: 30px;
+;
+}
+::selection {
+  background: orange; 
+}
+input:focus{outline:0;}
+html{ overflow-y: scroll;}
+
+.h4pc {
+
+   font-size: 45px;
+
+}
+
+.numberPicker {
+width: 500px;
+border:5px solid white ;
+      background-color: skyblue;
+font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: white ; 
+   
+
+}
+.numberPicker:focus{
+
+border:5px solid red;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.style {
+  width:90vw; height:90vh;
+  text-align:center;
+  padding-top:calc(50vh - 50px);
+  margin-left:5vw;
+  border:4px double #F00;
+  background-color:#000;
+}
+.style p {
+  color:#fff;
+  font-size:50px;
+}
+
+
+
+nav {
+margin: 0;
+    width: 100%;
+        padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+
+}
+nav ul {
+list-style: none;
+ margin: 0;
+    padding: 5px;
+    overflow: hidden;
+     background-color: #333;
+    
+}
+nav li {
+    display: inline-block;
+    float: right;
+    
+    margin-left: 20px;
+    
+    
+}
+nav a  {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Tajawal', sans-serif;
+color: white;
+    margin: 0;
+    padding: 10px;
+
+}
+nav h1 {
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 45px;
+    top: 0;
+    
+    font-family: 'Lilita One', cursive;
+    letter-spacing:8px;
+    color: 
+}
+nav img {
+        display: none;
+    }
+ #drbMenu li{
+    width: 100%;
+    color: white;
+    text-align: right;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-top:   2px solid black;
+
+}
+.plp {
+    padding-left: 65%
+}
+.item:hover {
+    background-color: red;
+}
+
+   
+
+
+#mainEssay {
+    color: white;
+    width: 80%;
+      margin: auto;
+  display: block;
+text-align: center;
+    
+}
+#imagee{
+  width: 100%;
+  height: auto;
+
+
+}
+#mainEssay h1{
+margin-top: 90px;
+font-size: 45px;
+}
+#mainEssay a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 0px 20px;
+    font-size: 70px;
+    
+}
+#mainEssay p{
+    font-size: 26px;
+}
+
+
+
+
+
+#emlpass {
+    position: absolute;
+    margin-left: 160px;
+    display: inline-block;
+
+
+}
+#emlpass input {
+width: 150px;
+    height: 20px;
+    margin: 0px;
+    position: relative;
+    top: -10px;
+
+}
+#emlpass p {
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+ 
+}
+#emlpass div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
+#textBox {
+    width: 70%;
+    height: 300px;
+    font-size: 25px;
+    border : none;
+    background-color: white;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+#lolp {
+    font-size: 75px;
+}
+#usee {
+    font-size: 75px;
+}
+
+   
+#useee {
+    font-size: 75px;
+} 
+#uuse {
+    font-size: 60px;
+} 
+
+
+@media only screen and (min-width:0px) (max-width:424px) {
+
+
+}
+@media only screen and (max-width:425px) {
+ 
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .h4pc {
+
+   font-size: 50px;
+
+        
+        
+        
+}
+
+
+    
+        
+     #brabom p {
+    font-size: 10px;
+
+}
+#brabom h1 {
+    font-size: 10px;
+
+}
+    
+    
+    
+    
+    
+        
+                #emlpass {
+    margin-left: 150px;
+}
+#emlpass input {
+width: 170px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+   
+    }
+#emlpass p {
+    font-size: 22px;
+}
+#emlpass div {
+    margin-right: 10px;
+}
+    
+    
+    
+    
+    
+    
+    
+}
+@media only screen and  (max-width:795px) {
+        
+    
+    .h4pc {
+
+   font-size: 55px;
+
+        
+        
+        
+}
+    #use h1 {
+        font-size: 40px;
+    }
+    #caseSize h1 {
+        font-size: 40px;
+    }
+    #usee {
+        font-size: 45px;
+    }
+    #useee {
+        font-size: 45px;
+    }
+    #uuse {
+    font-size: 30px;
+       margin-bottom: 20px;
+         
+}
+    #lolp{
+        font-size: 60px;
+        
+    }
+    #textBox {
+        width: 95%;
+
+    }
+    
+    
+    
+    #hided {
+    display: none;
+        
+
+    
+    
+}
+    nav img {
+        position: relative;
+        width: 7%;
+        float: right;
+        padding: 6px;
+        display: block;
+    }
+    #mainEssay {
+            width: 100%;
+
+    }
+     nav ul {
+    padding: 8px;
+   
+}
+        
+  #emlpassdiv {
+      display: none;
+                        }
+    
+}
+@media only screen and (min-width:796px) {
+    
+    #drbMenu li{
+        display: none;
+    }
+     nav ul {
+    padding: 8px;
+   
+}
+        
+  #emlpassdiv {
+      display: none;
+                        }
+
+}
+@media  only screen and (min-width:797px) and (max-width:942px)  {
+    
+    
+  #mainEssay h1{
+    font-size: 60px;
+}
+    #mainEssay p{
+    font-size: 35px;
+}
+  nav ul {
+    padding: 8px;
+   
+}
+nav a {
+
+    font-size: 15px;
+
+}
+    
+    .h4pc {
+
+   font-size: 52px;
+
+}
+     #drbMenu li{
+        display: none;
+    }
+        
+  #emlpassdiv {
+      display: none;
+                        }
+    
+    
+    
+
+    
+    
+    
+    
+}
+@media  only screen and (min-width:943px) and (max-width:1165px)  {
+    
+    
+  #mainEssay h1{
+    font-size: 60px;
+}
+    #mainEssay p{
+    font-size: 35px;
+}
+  nav ul {
+    padding: 8px;
+   
+}
+nav a {
+
+    font-size: 20px;
+
+}
+    
+    .h4pc {
+
+   font-size: 55px;
+
+}
+     #drbMenu li{
+        display: none;
+    }
+    
+    
+    
+    
+    
+  #emlpassdiv {
+      display: none;
+                        }
+    
+    
+    
+    
+}
+@media  only screen and (min-width:1166px) and (max-width:1349px)  {
+    
+  #mainEssay h1{
+    font-size: 60px;
+}
+    #mainEssay p{
+    font-size: 35px;
+}
+  nav ul {
+    padding: 8px;
+   
+}
+nav a {
+
+    font-size: 20px;
+
+}
+    
+    .h4pc {
+
+   font-size: 55px;
+
+}
+     #drbMenu li{
+        display: none;
+    }
+    
+    
+    
+    
+      #emlpassdiv {
+      display: block;
+                        }
+    
+
+}
+@media  only screen and (min-width:1350px) and (max-width:1920px)  {
+    
+  #mainEssay h1{
+    font-size: 60px;
+}
+    #mainEssay p{
+    font-size: 35px;
+}
+  nav ul {
+    padding: 8px;
+   
+}
+nav a {
+
+    font-size: 20px;
+
+}
+    
+    .h4pc {
+
+   font-size: 55px;
+
+}
+     #drbMenu li{
+        display: none;
+    }
+    
+    
+    
+          #emlpassdiv {
+      display: block;
+                        }
+    
+
+    
+                #emlpass {
+    margin-left: 160px;
+}
+#emlpass input {
+width: 220px;
+    height: 20px;
+    font-size: 20px;
+    }
+#emlpass p {
+    font-size: 22px;
+}
+#emlpass div {
+    margin-right: 30px;
+}
+
+
+}
+@media  only screen and (min-width:1921px) and (max-width:2560px)  {
+    
+  #mainEssay h1{
+    font-size: 90px;
+}
+    #mainEssay p{
+    font-size: 40px;
+}
+  nav ul {
+    padding: 15px;
+   
+}
+nav a {
+
+    font-size: 30px;
+
+}
+    nav li {
+        margin-right: 40px;
+    }
+    .h4pc {
+
+   font-size: 83px;
+
+}
+    #mainEssay h1{
+    margin-top: 120px
+}
+    
+    
+            #emlpass {
+    margin-left: 260px;
+}
+#emlpass input {
+width: 250px;
+    height: 30px;
+    font-size: 20px;
+    }
+#emlpass p {
+    font-size: 30px;
+}
+#emlpass div {
+    margin-right: 40px;
+}
+
+      #emlpassdiv {
+      display: block;
+                        }
+}
+@media  only screen and (min-width:2561px) and (max-width:3840px)  {
+    
+  #mainEssay h1{
+    font-size: 140px;
+}
+    #mainEssay p{
+    font-size: 75px;
+}
+  nav ul {
+    padding: 15px;
+   
+}
+nav a {
+
+    font-size: 33px;
+
+}
+    nav li {
+
+    margin-right: 45px;
+
+}
+    .h4pc {
+
+   font-size: 86px;
+
+}
+    #mainEssay h1{
+    margin-top: 180px
+}
+    
+    
+          #emlpassdiv {
+      display: block;
+                        }
+
+}
+
+
+.text {
+    color: white;
+}
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#llp img {
+    display: inline-block;
+    height: 200px;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#llp  {
+margin: auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+#use h1 {
+
+
+    color: white;
+padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#use h1:hover {
+
+color: yellow;
+}
+#use {
+    background-color: #333333;
+
+}
+.pagebtn {
+    text-decoration: none;
+    background-color: yellow;
+    font-size: 50px;
+    padding: 5px 40px 5px 40px;
+    color: black;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+     border : none;
+}
+
+
+
+#caseSize h1 {
+
+
+    color: white;
+padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#caseSize h1:hover {
+
+color: yellow;
+}
+#caseSize {
+    background-color: #333333;
+
+}
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    font-size: 60px;
+    padding: 5px 15px 5px 15px;
+}
+
+
+
+
+
+#regdiv {
+    background-color:#2222;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.75);
+    
+    border-bottom: 17px solid #ff471a;
+    border-radius: 0px 40px 40px 40px;
+    max-width: 600px;
+    width: auto
+}
+#reg p {
+    color: orange;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    text-align: start;
+    margin-left: 40px;
+    
+
+}
+#reg input {
+   max-width:500px;
+    height: 35px;
+font-size: 20px;
+    box-shadow: 0px;
+    font-family: 'Tajawal', sans-serif;
+    padding: 4px 10px 4px 10px;
+    margin-bottom: 25px;
+    background-color:  #777;
+    border: solid 2px black;
+    color: white;
+    border-radius: 4px;
+    width: 90%;
+}
+#reg input:focus{
+     
+    border: solid 2px white;
+
+}
+#reg a {
+    background-color: darkblue;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+}
+
+
+#brabom h1:hover {
+ color: #bfff80;
+
+}
+#brabom p {
+    font-size: 25px;
+    display: inline-block;
+}
+#brabom h1 {
+    font-size: 30px;
+    display: inline-block;
+     color: chartreuse;
+    cursor: pointer;
+     margin-top: 20px
+}
+
+
+
+
+
+
+
+
+
+#npp button {
+    margin: 0px;
+    display: inline-block;
+   
+    background-color: #0099ff;
+    border: none;
+    font-size: 70px;
+    height: 110px;
+    width: 60px;
+    margin: 0px;
+    position: absolute;
+    color: aliceblue;
+     cursor: pointer;
+    
+}
+#npp p {
+    margin: 0px;
+    display: inline-block;
+    background-color: white;
+    font-size: 50px;
+    padding: 0px 60px 0px 60px;
+    margin: 0px -55px 0px -5px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+
+
+    
+}
+#npp {
+    ;display: block;
+    text-align: center;
+}
+
+#npp img {
+    width: 50px;
+margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}

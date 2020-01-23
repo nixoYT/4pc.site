@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+    <html>
+        
+        
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+   
+<link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Almarai|Tajawal&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript" src="../js/javaScript.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Almarai|Anton|Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/hover.css">
+    
+<link rel="stylesheet" type="text/css" href="../css/style.css ">
+    
+    <link rel="stylesheet" type="text/css" href="../css/rainBow.css ">
+    </head>
+        
+        
+
+        
+        <body>
+            <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '476170803099165',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v5.0'
+    });
+     FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+    // The user is logged in and has authenticated your
+    // app, and response.authResponse supplies
+    // the user's ID, a valid access token, a signed
+    // request, and the time the access token 
+    // and signed request each expire.
+    var uid = response.authResponse.userID;
+    var accessToken = response.authResponse.accessToken;
+  } else if (response.status === 'not_authorized') {
+    // The user hasn't authorized your application.  They
+    // must click the Login button, or you must call FB.login
+    // in response to a user gesture, to launch a login dialog.
+  } else {
+    // The user isn't logged in to Facebook. You can launch a
+    // login dialog with a user gesture, but the user may have
+    // to log in to Facebook before authorizing your application.
+  }
+ }); 
+  };
+                
+        function statusChangeCallback(response){
+         if(response.status === 'connected'){
+console.log('logged in and authenticated')
+            }else {
+                console.log('not authenticated')
+            }   
+        }     
+                
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+                <nav style="z-index: 2;" >
+               
+        <ul ><a style="padding: 0px;" href="../mainPage.html"><h1 class="h4pc rainbow rainbow_text_animated">4PC</h1></a>
+            
+        <li id="hided">
+            
+            <a class=" hvr-grow-rotate item" href="../mainPage.html">الصفحة الرئيسية</a>
+         
+            </li>
+                                    <li id="hided">
+            
+            <a class="signInn hvr-grow-rotate item" href="../pages/signIn.html" >تسجيل الدخول</a>
+            
+            </li >
+            <li id="hided">
+            
+            <a class=" hvr-grow-rotate item" href="../pages/register.html" >التسجيل</a>
+            
+            </li >
+            
+        <li id="hided">
+            
+            <a class=" hvr-grow-rotate item" href="pcOrder.html" >طلب تجميعة</a>
+            
+            </li>
+            
+            
+        <li id="hided">
+            
+            <a class=" hvr-grow-rotate item" href="contactUs.html" >تواصل معنا</a>
+            
+            </li>
+            
+            <li id="hided">
+            
+            <a class=" hvr-grow-rotate item" href="about.html" >من نحن</a>
+            
+            </li >
+            
+            
+            
+            
+            
+            
+            
+<a id="drb" href="#"  >
+            
+    <img  src="../images/nav-icon.png" class="hvr-groww" >
+            
+            </a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    </ul>
+        
+        
+        
+        <ul style="display: none;margin: 0;z-index: 1;" id="drbMenu" >
+
+            <li class="hvr-sweep-to-left " style="">
+                
+                <a href="../mainPage.html"  class="plp" style="padding-left: 50%" >الصفحة الرئيسية</a>
+                
+            </li>
+            <li class="hvr-sweep-to-left ">
+                
+                <a href="../pages/signIn.html" class="plp">تسجيل الدخول</a>
+            
+            </li>
+             <li class="hvr-sweep-to-left ">
+                
+                <a href="../pages/register.html" class="plp" style="padding-left: 50%" >التسجيل</a>
+            
+            </li>
+            
+            
+            
+            <li class="hvr-sweep-to-left  ">
+                
+                <a href="pcOrder.html" class="plp">طلب تجميعة</a>
+            
+            </li>
+            
+            
+            
+            <li class="hvr-sweep-to-left ">
+                
+                <a href="contactUs.html" class="plp">تواصل معنا</a>
+            
+            </li>
+            
+            
+            
+            <li class="hvr-sweep-to-left ">
+                
+                <a href="about.html" class="plp">من نحن</a>
+            
+            </li>
+        </ul>
+        
+    </nav>
+            
+            
+            
+            <div id="mainEssay"
+                 class="signUpEssay" >
+        
+        
+
+<div id="regdiv">
+    
+    
+    <form id="reg">
+        <div>
+    <p 
+       style="text-align: center;
+              font-weight: 900;
+              color: white;
+              font-size: 65px;
+              margin: 0px;
+              margin-bottom: 20px;
+              
+              ">sign up</p>
+
+        <p>username</p>
+        <input type="text" name="username" >
+        <p>Email Adress</p>
+        <input type="text" name="E-mail" >
+        <p>Passwor</p>
+        <input type="password" name="password" >
+        <p>Confirm password</p>
+        <input type="password" name="confirmPassword" >
+      
+</div>
+
+    
+
+    </form>
+    
+        <a
+           href="#"
+           
+           style="font-size: 60px;"
+           
+           class="hvr-grow signUp"
+           
+           
+           
+           >التسجيل</a>
+    
+    
+    
+    <div id="brabom" style="display: inline-block;"> 
+        
+        
+        <h1 class="signIn" style="color: ">بتسجيل الدخول </h1>
+        
+        
+        <p class=""  style="margin-left: 10px;"> لديك حساب بالفعل قم </p></div>
+
+
+                </div>
+        
+        
+    
+        
+    
+   
+
+    </div>
+               
+    
+    
+     
+                        <div id="mainEssay" class="signInEssay" style="display: none">
+        
+        
+
+<div id="regdiv">
+    
+    
+    <form id="reg">
+        <div>
+    <p 
+       style="text-align: center;
+              font-weight: 900;
+              color: white;
+              font-size: 65px;
+              margin: 0px;
+              margin-bottom: 20px;
+              
+              ">sign in</p>
+
+
+        <p>Email Adress</p>
+        <input type="text" name="E-mailE" >
+        <p>Passwor</p>
+        <input type="password" name="passwordE" >
+
+</div>
+
+    
+
+    </form>
+    
+        <a
+           href="#"
+           
+           style="font-size: 60px;"
+           
+           class="hvr-grow signIn"
+           
+           
+           
+           >تسجيل الدخول</a>
+    
+    
+    
+
+        <div id="brabom" style="display: inline-block;"> 
+        
+        
+        <h1 class="signUp" style="color: ">بالتسجيل</h1>
+        
+        
+        <p class=""  style="margin-left: 10px;"> ليس لديك حساب ؟ قم </p></div>
+                </div>
+        
+        
+    
+        
+    
+      
+
+    </div>
+    
+            
+            
+            
+        </body>
+    </html>
